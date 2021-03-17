@@ -4,8 +4,33 @@
 #Descripción: Script para descargar música de youtube desde la terminal. Ya sea canciones individuales o plasylist.
 #Contacto: kullia.kg55@gmail.com
 
+------------------------------------------------------
 #AÚN ESTA EN PROCESO. 
-#Puedes modificar el script como prefieras. !!El conocimineto es libre!!
+#Puedes modificar el script como prefieras. 
+!!El conocimineto es libre!!
 
-Para que funcione corectamente debes tener instaldo youtube-dl y ffmpeg. (Ya esta en cola el desarrollo de un script de instalación automatizada.)
+------------------------------------------------------
+IMPORTANTE
+Para que funcione corectamente debes tener instado youtube-dl y ffmpeg. (Ya esta en cola el desarrollo de un script de instalación automatizada.)
 
+Instalación de herraminetas necesarias.
+
+VIA APT (Ubuntu)
+	sudo apt install ffmpeg
+	sudo apt install youtube-dl
+
+INSTALACIÓN VIA PIP/PIP3
+  pip install yotube-dl o pip3 install youtube-dl
+
+------------------------------------------------------
+Uso: 
+Clonar repositorio:
+  git clone https://github.com/zereft01/DMisic
+Abrir repositorio:
+  cd DMisic
+Dar permisos al script:
+  chmod +x DMusica.sh
+Ejecutar:
+  ./DMusica.sh o bash DMusica.sh
+ 
+Seguir instrucciones del script para descargar música....
