@@ -11,6 +11,7 @@ IMPORTANTE
 Para que funcione corectamente debes tener instado youtube-dl y ffmpeg. (Ya esta en cola el desarrollo de un script de instalación automatizada.)
 
 Instalación de herraminetas necesarias.
+
 UBUNTU, derivados de debian
 VIA APT (Ubuntu)
 	sudo apt install ffmpeg
@@ -21,19 +22,21 @@ INSTALACIÓN VIA PIP/PIP3
  
  INSTALACIÓN TERMUX
  	pkg install ffmpeg
+	pip install youtube-dl
   
 ------------------------------------------------------
 Uso: 
 Clonar repositorio:
-  git clone https://github.com/zereft01/DMisic
+  git clone https://github.com/zereft01/DMusic
 Abrir repositorio:
-  cd DMisic
+  cd DMusic
 Dar permisos al script:
   chmod +x DMusica.sh
 Ejecutar:
   ./DMusica.sh o bash DMusica.sh
  
 Seguir instrucciones del script para descargar música....
+Si quieres ejecutarlo desde cualquier lugar sin estar dentro de la carpeta debes mover el script a /usr/bin . Con esto solo deberas escribir el nombre y se ejcutara
 -------------------------------------------------------
-Dudas, sugerencias, comentarios, etc al correo. Respondere sus inquietudes.
+Dudas, sugerencias, comentarios, etc al correo.
 
