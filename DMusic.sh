@@ -49,7 +49,7 @@ case $arch in
 		youtube-dl -ict --yes-playlist --extract-audio --audio-format mp3 --audio-quality 0 $Play
 		echo $lineas
 		;;
-	 [*])
+	 [3]|*)
 		echo $lineas
 		echo "Adiós"
 		echo $lineas
