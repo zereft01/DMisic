@@ -1,21 +1,16 @@
 #!/bin/bash
 
-lineas="===================================="
-red='\033[1;31m'                                        
+lineas="===================================="                                   
 green='\033[1;32m'
-yellow='\033[1;33m'                                   
-blue='\033[1;34m'                                       
-magenta='\033[1;35m'                                    
-cyan='\033[1;36m'
-reset='\033[0m'
 printf $green
+v=1.0
 echo $lineas
 
 echo "  ╔═ ╔╔ ║ ║╔═╝╝╔═╝  ═║  ╔═║
   ║ ║║║║║ ║══║║║     ║  ║╝║
   ══ ╝╝╝══╝══╝╝══╝  ══╝╝══╝
 "
-
+echo $v
 echo $lineas
 
 read -p "¿Que quieres descargar?
@@ -42,7 +37,7 @@ case $arch in
 		echo "Descarga finalizada, el archivo se encuentra en: "
 		pwd
 		;;
-	[2])
+	[Pp]laylist|2)
 		read -p "Escribe la URL de la playlist " Play
 		if [ -z $Play ];then
 			echo "No ingresante una url"
