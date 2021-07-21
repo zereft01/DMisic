@@ -2,26 +2,29 @@
 #Autor: zereft01
 #Fecha: 15/03/21
 #Descripción: Script para descargar música de youtube desde la terminal. Ya sea canciones individuales o Playlist.
-#Contacto: kullia.kg55@gmail.com
+#Contacto:
+#Correo: kullia.kg55@gmail.com
+#Telegram Alias: zereft
 ------------------------------------------------------
-#AÚN ESTA EN PROCESO. 
+#AÚN ESTA EN DESARROLLO !!!!
 ------------------------------------------------------
 IMPORTANTE
-Para que funcione corectamente debes tener instado youtube-dl y ffmpeg. (Ya esta en cola el desarrollo de un script de instalación automatizada.)
+Para que funcione corectamente debes tener instado youtube-dl y ffmpeg. (Ya esta en lista el desarrollo de un script de instalación automatizada.)
 
 Instalación de herramientas necesarias.
 
 INSTALACIÓN EN UBUNTU
-POR APT
+  POR APT
 	sudo apt install ffmpeg
 	sudo apt install youtube-dl
-O
 
-POR PIP/PIP3
+O POR PYTHON
+
+  POR PIP/PIP3
 	pip install yotube-dl o pip3 install youtube-dl
 
-INSTALACIÓN EN ANDROID (TERMUX)
- 	pkg install ffmpeg
+INSTALACIÓN EN ANDROID (TERMUX); Es necesario tener insalado python y pip para instalar youtube-dl
+ 	apt install ffmpeg
 	pip install youtube-dl
   
 ------------------------------------------------------
