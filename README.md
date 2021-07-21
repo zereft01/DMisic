@@ -18,23 +18,24 @@ INSTALACIÓN EN UBUNTU
 	sudo apt install ffmpeg
 	sudo apt install youtube-dl
 
-O POR PYTHON
+O CON PYTHON POR APT
 
   POR PIP/PIP3
-	pip install yotube-dl o pip3 install youtube-dl
+	pip install yotube-dl (SI ESTE DA ERROR INTENTA CON EL DE ABAJO)
+	pip3 install youtube-dl
 
-INSTALACIÓN EN ANDROID (TERMUX); Es necesario tener insalado python y pip para instalar youtube-dl
+INSTALACIÓN EN ANDROID (TERMUX); Es necesario tener instalado python y pip para instalar youtube-dl
  	apt install ffmpeg
 	pip install youtube-dl
   
 ------------------------------------------------------
-Uso: 
+USO: 
 Clonar repositorio:
-  git clone https://github.com/zereft01/DMusic
+  > git clone https://github.com/zereft01/DMusic
 Abrir repositorio:
-  cd DMusic
+  > cd DMusic
 Dar permisos al script:
-  chmod +x DMusic.sh
+  > chmod +x DMusic.sh
 Ejecutar:
   ./DMusic.sh o bash DMusic.sh
  
@@ -44,5 +45,6 @@ Si quieres ejecutarlo desde cualquier lugar sin estar dentro de la carpeta debes
 Dudas, sugerencias, comentarios, etc al correo.
 
 !!El conocimiento es libre!!
--
 
+#ACTUALIZACIONES:
+----Descarga portadas.
