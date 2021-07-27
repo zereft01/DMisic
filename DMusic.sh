@@ -6,11 +6,9 @@ printf $green
 v=1.2
 echo $lineas
 
-echo "  ╔═ ╔╔ ║ ║╔═╝╝╔═╝  ═║  ╔═║
-  ║ ║║║║║ ║══║║║     ║  ║╝║
-  ══ ╝╝╝══╝══╝╝══╝  ══╝╝══╝
-"
-echo $v
+echo "╔═ ╔╔ ║ ║╔═╝╝╔═╝
+║ ║║║║║ ║══║║║  
+══ ╝╝╝══╝══╝╝══╝" $v
 echo $lineas
 
 read -p "¿Que quieres descargar?
