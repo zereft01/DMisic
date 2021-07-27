@@ -46,7 +46,7 @@ case $arch in
 		echo $lineas
 		sleep 0.5
 		echo "Preparando descarga __>"
-		youtube-dl -ict --yes-playlist --extract-audio --audio-format mp3 --audio-quality 0 $Play
+		youtube-dl -ict --embed-thumbnail --yes-playlist --extract-audio --audio-format mp3 --audio-quality 0 $Play
 		echo $lineas
 		;;
 	 [3]|*)
