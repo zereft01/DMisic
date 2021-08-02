@@ -21,12 +21,12 @@ INSTALACIÓN EN UBUNTU
 O CON PYTHON POR APT
 
   POR PIP/PIP3
-	pip install yotube-dl (SI ESTE DA ERROR INTENTA CON EL DE ABAJO)
+	pip install youtube-dl (SI ESTE DA ERROR INTENTA CON EL DE ABAJO)
 	pip3 install youtube-dl
 
 INSTALACIÓN EN ANDROID (TERMUX); Es necesario tener instalado python y pip para instalar youtube-dl
- 	apt install ffmpeg
-	pip install youtube-dl
+ 	pkg install ffmpeg
+	pip3 install youtube-dl
   
 ------------------------------------------------------
 USO: 
